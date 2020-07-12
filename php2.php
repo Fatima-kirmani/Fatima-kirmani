@@ -18,11 +18,11 @@ echo "</br>";
 echo "pyramid no.2";
 echo "</br>";
 
-$size = 5;
-for($i=1;$i<=$size;$i++){
+for($i=1;$i<=5;$i++){
 
-    for($j=1; $j<=$size-$i ;$j++){
+    for($j=1; $j<=5-$i ;$j++){
         echo "&nbsp;&nbsp;";
+        echo ";";
     }
 
     for($k=1; $k <= $i; $k++ ){
